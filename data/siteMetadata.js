@@ -1,21 +1,22 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'NFTCONOMY',
+  author: 'Jason Bourne',
+  headerTitle: 'nftconomy/blog',
+  description:
+    'Helping accelerate the world’s adoption of NFTs and cryptocurrency as an asset class of their own.',
   language: 'en-us',
-  theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  theme: 'dark', // system, dark or light
+  siteUrl: 'https://blog.nftconomy.io',
+  siteRepo: 'https://github.com/nftconomy/blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  email: 'hello@nftconomy.io',
+  github: 'https://github.com/nftconomy',
+  twitter: 'https://twitter.com/nftconomy',
+  facebook: 'https://facebook.com/nftconomy',
+  youtube: 'https://youtube.com/nftconomy',
+  linkedin: 'https://www.linkedin.com/company/nftconomy/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -51,7 +52,7 @@ const siteMetadata = {
       metadata: '0',
       // theme example: light, dark, dark_dimmed, dark_high_contrast
       // transparent_dark, preferred_color_scheme, custom
-      theme: 'light',
+      theme: 'transparent_dark',
       // Place the comment box above the comments. options: bottom, top
       inputPosition: 'bottom',
       // Choose the language giscus will be displayed in. options: en, es, zh-CN, zh-TW, ko, ja etc
